@@ -1,6 +1,5 @@
 # Operational-amplifier-AC-amplifier
 A small adjustable and multipurpose class A amplifier which can be used to pre amplify the signals before giving into power amplifiers.
-https://jlcpcb.com/?from=SSA
 
 <img width="628" alt="THUMB" src="https://github.com/electroboy001/Operational-amplifier-AC-amplifier/assets/97245507/d077c877-f960-41ed-ba79-b0cb6fd682c8">
 
@@ -33,6 +32,7 @@ Power supply (5V)
 <img width="564" alt="ice_screenshot_20230514-150508" src="https://github.com/electroboy001/Operational-amplifier-AC-amplifier/assets/97245507/897aef2c-6926-43a6-b422-15e7c3f6873d">
 
 Because I want to design this operational amplifier for different purposes so I am going for variable jumpers that will set the overall gain ratio, and I am using PCB prototype service from JLCPCB. JLCPCB provides prototyping solution for PCB, stencil, 3D-desiging, PCBA, precision RF PCB and flex PCB service.
+https://jlcpcb.com/?from=SSA
 
 Setting the configuration of op-amp:
 
