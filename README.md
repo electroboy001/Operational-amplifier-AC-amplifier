@@ -1,5 +1,6 @@
 # Operational-amplifier-AC-amplifier
 A small adjustable and multipurpose class A amplifier which can be used to pre amplify the signals before giving into power amplifiers.
+https://jlcpcb.com/?from=SSA
 
 <img width="628" alt="THUMB" src="https://github.com/electroboy001/Operational-amplifier-AC-amplifier/assets/97245507/d077c877-f960-41ed-ba79-b0cb6fd682c8">
 
@@ -12,14 +13,21 @@ Here we can set the Q-point in case of audio amplifier to adjust the signal to p
 ![AmplifierClassesp8](https://github.com/electroboy001/Operational-amplifier-AC-amplifier/assets/97245507/f40c20fd-3ae6-4b82-9716-2f143324f6f9)
 
 You can access both previous tutorials from here:
+
 https://www.hackster.io/electroboy001/operational-amplifier-as-dc-amplifier-1041a3
+
 https://www.hackster.io/electroboy001/basics-of-operational-amplifiers-part-1-6a4556
 
 Components required:
 LM358 operational amplifier
+
 Resistors (1K and 10K)
+
 Potentiometer (100K)
-Custom PCB from JLCPCB
+
+Custom PCB from JLCPCB  
+https://jlcpcb.com/?from=SSA
+
 Power supply (5V)
 
 <img width="564" alt="ice_screenshot_20230514-150508" src="https://github.com/electroboy001/Operational-amplifier-AC-amplifier/assets/97245507/897aef2c-6926-43a6-b422-15e7c3f6873d">
@@ -50,9 +58,11 @@ PCB and Gerber designs:
 
 I made the schematics and Gerber files in EASYEDA and exported them, these GERBER files can be directly used to order the PCB from JLCPCB. Select the jumpers to adjust the gain settings. I am using 3 different gain settings which provides a gain listed on gain set jumpers.
 JLCPCB is the only PCB manufacturer provides 5 pieces of 2-layer PCB in just $2. Sign-up using this link and get free PCB coupons of worth $54.
+https://jlcpcb.com/?from=SSA
 
 Working and testing:
 
 <img width="593" alt="ice_screenshot_20230515-225004" src="https://github.com/electroboy001/Operational-amplifier-AC-amplifier/assets/97245507/37720fb9-0d7f-489a-b9f0-d7772b705868">
+
 
 The output of amplifier is quite stable and proper, you can make this amplifier using the same schematics. The input to the system should be within the limit of power supply added to it, otherwise there will be saturation. To avoid sudden saturation minimize the gain before applying input signal to the amplifier system. In future, I will also cover some more topics on operational amplifier (main applications). The high amplitude signal on the input cause upper- and lower-part signal saturation in the operational amplifier.
